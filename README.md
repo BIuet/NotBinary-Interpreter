@@ -10,7 +10,9 @@ The esolang uses a stack and a variable for memory.
 The code consists of 1s and 0s. Other characters are allowed, but the interpreter will automatically remove them when run.
 
 Commands:
-Stack commands manipulate the stack. Each stack command starts with 111.
+Stack commands manipulate the stack. Each stack command starts with ``111``.
+|Command|Description|
+|---|---|
 |111|Pushes 0 to the stack|
 |011|Pops the top value out of the stack and outputs it as an ASCII character|
 |110|Outputs the top value as an ASCII character|
