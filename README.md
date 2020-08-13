@@ -25,17 +25,21 @@ A stack command: ``111 011`` (pops first value and outputs it)
 |101|Squares the top value of the stack|
 |100|Increments top value|
 |001|Decrements top value|
+
 <br>
 Variable commands manipulate the one variable. Each variable command has an identifier of ``000``.
 <br>
+
 |Command|Description|
 |---|---|
 |110|Mirror command: sets the variable value to the top value in the stack|
 |011|Pushes a copy of variable's value into the stack|
 |111|Input and stores it in the variable|
+
 <br>
 Other commands (they do not require identifiers and thus will appear alone):
 <br>
+
 |Command|Description|
 |---|---|
 |110|Addition: pops a, b and push a + b|
