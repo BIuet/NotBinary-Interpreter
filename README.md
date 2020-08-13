@@ -1,5 +1,6 @@
 # NotBinary-Interpreter
 An interpreter for an esolang I made in the first two days of learning C++.
+<br>
 Written in C++11.
 
 # What is NotBinary?
@@ -7,10 +8,12 @@ Very simple. It looks like binary, smells like binary, but it is not binary.
 
 # How NotBinary Works
 The esolang uses a stack and a variable for memory.
+<br>
 The code consists of 1s and 0s. Other characters are allowed, but the interpreter will automatically remove them when run.
 
 Commands:
 Stack commands manipulate the stack. Each stack command has an identifier of ``111``.
+<br>
 A stack command: ``111 011`` (pops first value and outputs it)
 |Command|Description|
 |---|---|
@@ -39,4 +42,5 @@ Other commands (they do not require identifiers and thus will appear alone):
 
 # Resources
 For basic concept of Interpreter: https://www.programiz.com/article/difference-compiler-interpreter
+<br>
 A basic concept of Lexer by zeroFruit: https://medium.com/de-labtory/create-new-smartcontract-language-with-go-lexer-part-a5cdfca9b42e
